@@ -16,21 +16,30 @@ class Roots_List extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Container(
-                child: Card(
-                  margin: const EdgeInsets.all(11),
-                  elevation: 20,
-                  child: Column(
-
-                    children: <Widget>[
-                      Image.asset("image/shivin_nalwaya_s.jpg",
-                          height: 150),
-                      Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),),
-                      Text("Manish Kapoor",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                      Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
-                    ],
-                  )
-                )
-              ),
+                  child: Card(
+                      margin: const EdgeInsets.all(11),
+                      elevation: 20,
+                      child: Column(
+                        children: <Widget>[
+                          Image.asset("image/manish_kapoor_l.jpg", height: 150),
+                          Text(
+                            "Founder and Chairman",
+                            style:
+                                new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                          ),
+                          Text(
+                            "Manish Kapoor",
+                            style: new TextStyle(
+                                fontSize: 22, color: Colors.black),
+                          ),
+                          Text("_____________________"),
+                          Text(
+                            "Qualifications:\n Company Secretary, Masters of Business",
+                            style:
+                                new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                          )
+                        ],
+                      ))),
               Container(
                   child: Card(
                       elevation: 20,
@@ -38,14 +47,24 @@ class Roots_List extends StatelessWidget {
                         children: <Widget>[
                           Image.asset("image/shivin_nalwaya_s.jpg",
                               height: 150),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),),
-                          Text("Shivin Nalwaya",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
+                          Text(
+                            "Managing Director",
+                            style:
+                            new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                          ),
+                          Text(
+                            "Shivin Nalwaya",
+                            style: new TextStyle(
+                                fontSize: 22, color: Colors.black),
+                          ),
+                          Text("_____________________"),
+                          Text(
+                            "Qualifications:\n Chartered Accountant. Mr. Shivin Nalwaya, designated as",
+                            style:
+                            new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                          )
                         ],
-                      )
-                  )
-              ),
-
+                      ))),
             ],
           ),
         ),
@@ -58,31 +77,44 @@ class Roots_List extends StatelessWidget {
                       margin: const EdgeInsets.all(11),
                       elevation: 20,
                       child: Column(
-
                         children: <Widget>[
-                          Image.asset("image/shivin_nalwaya_s.jpg",
+                          Image.asset("image/shreya_jain_l.jpg",
                               height: 150),
-                          Text("Manish",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
+                          Text(
+                            "Shreya Jain",
+                            style: new TextStyle(
+                                fontSize: 22, color: Colors.black,),
+                          ),
+                          Text("_____________________"),
+
+                          Text(
+                            "Qualifications:\n Chartered Accountant, \nBachelors of Commerce. Miss Shreya Jain is an aspiring young",
+                            style: new TextStyle(
+                                fontSize: 16, color: Colors.grey),
+                          )
                         ],
-                      )
-                  )
-              ),
+                      ))),
               Container(
                   child: Card(
                       elevation: 20,
                       child: Column(
                         children: <Widget>[
-                          Image.asset("image/shivin_nalwaya_s.jpg",
+                          Image.asset("image/mayank.jpg",
                               height: 150),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),),
-                          Text("Manish",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
-                        ],
-                      )
-                  )
-              ),
+                          Text(
+                            "Mayank Sharma",
+                            style: new TextStyle(
+                              fontSize: 22, color: Colors.black,),
+                          ),
+                          Text("_____________________"),
 
+                          Text(
+                            "Qualifications:\n Company Secretary, \nBachelors of Commerce, \nMasters of Commerce.",
+                            style: new TextStyle(
+                                fontSize: 16, color: Colors.grey),
+                          )
+                        ],
+                      ))),
             ],
           ),
         ),
@@ -95,38 +127,48 @@ class Roots_List extends StatelessWidget {
                       margin: const EdgeInsets.all(11),
                       elevation: 20,
                       child: Column(
-
                         children: <Widget>[
-                          Image.asset("image/shivin_nalwaya_s.jpg",
+                          Image.asset("image/suraj.jpg",
                               height: 150),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),),
-                          Text("Manish",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
+                          Text(
+                            "Suraj Bohra LW",
+                            style: new TextStyle(
+                              fontSize: 22, color: Colors.black,),
+                          ),
+                          Text("_____________________"),
+
+                          Text(
+                            "Qualifications:\n Company Secretary, \nBachelors of Commerce",
+                            style: new TextStyle(
+                                fontSize: 16, color: Colors.grey),
+                          )
                         ],
-                      )
-                  )
-              ),
+                      ))),
               Container(
                   child: Card(
                       elevation: 20,
                       child: Column(
                         children: <Widget>[
-                          Image.asset("image/shivin_nalwaya_s.jpg",
+                          Image.asset("image/girish.jpg",
                               height: 150),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),),
-                          Text("Manish",style: new TextStyle(fontSize: 22,color: Colors.deepPurple),),
-                          Text("Description",style: new TextStyle(fontSize: 16,color: Colors.black),)
-                        ],
-                      )
-                  )
-              ),
+                          Text(
+                            "Girish Samdani",
+                            style: new TextStyle(
+                              fontSize: 22, color: Colors.black,),
+                          ),
+                          Text("_____________________"),
 
+                          Text(
+                            "Qualifications:\n Bachelor of Business \nManagement, Master \nof Commerce",
+                            style: new TextStyle(
+                                fontSize: 16, color: Colors.grey),
+                          )
+                        ],
+                      ))),
             ],
           ),
         )
-
       ]),
     );
-
   }
 }
