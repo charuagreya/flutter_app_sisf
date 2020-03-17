@@ -13,7 +13,7 @@ class Roots_List extends StatelessWidget {
       body: ListView(children: <Widget>[
         Container(
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly, 
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Container(
                 child: Card(
