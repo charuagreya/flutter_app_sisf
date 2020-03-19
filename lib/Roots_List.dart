@@ -25,18 +25,18 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Founder and Chairman",
                             style:
-                                new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                                new TextStyle(fontSize: 16, color: Colors.blueGrey,fontStyle: FontStyle.italic),
                           ),
                           Text(
                             "Manish Kapoor",
                             style: new TextStyle(
-                                fontSize: 22, color: Colors.black),
+                                fontSize: 17, color: Colors.black),
                           ),
                           Text("_____________________"),
                           Text(
-                            "Qualifications:\n Company Secretary, Masters of Business",
+                            "Qualifications:\nCompany Secretary, \nMasters of Business",
                             style:
-                                new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                                new TextStyle(fontSize: 15, color: Colors.blueGrey,fontStyle: FontStyle.italic),
                           )
                         ],
                       ))),
@@ -50,18 +50,18 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Managing Director",
                             style:
-                            new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                            new TextStyle(fontSize: 16, color: Colors.blueGrey,fontStyle: FontStyle.italic),
                           ),
                           Text(
                             "Shivin Nalwaya",
                             style: new TextStyle(
-                                fontSize: 22, color: Colors.black),
+                                fontSize: 17, color: Colors.black),
                           ),
                           Text("_____________________"),
                           Text(
-                            "Qualifications:\n Chartered Accountant. Mr. Shivin Nalwaya, designated as",
+                            "Qualifications:\nChartered Accountant. \nManaging Director",
                             style:
-                            new TextStyle(fontSize: 16, color: Colors.grey,fontStyle: FontStyle.italic),
+                            new TextStyle(fontSize: 15, color: Colors.blueGrey,fontStyle: FontStyle.italic),
                           )
                         ],
                       ))),
@@ -73,7 +73,9 @@ class Roots_List extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Container(
+                height: 280,
                   child: Card(
+
                       margin: const EdgeInsets.all(11),
                       elevation: 20,
                       child: Column(
@@ -83,14 +85,14 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Shreya Jain",
                             style: new TextStyle(
-                                fontSize: 22, color: Colors.black,),
+                                fontSize: 17, color: Colors.black,),
                           ),
                           Text("_____________________"),
 
                           Text(
-                            "Qualifications:\n Chartered Accountant, \nBachelors of Commerce. Miss Shreya Jain is an aspiring young",
+                            "Qualifications:\nChartered Accountant, \nBachelors of Commerce.",
                             style: new TextStyle(
-                                fontSize: 16, color: Colors.grey),
+                                fontSize: 15, color: Colors.blueGrey),
                           )
                         ],
                       ))),
@@ -104,14 +106,14 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Mayank Sharma",
                             style: new TextStyle(
-                              fontSize: 22, color: Colors.black,),
+                              fontSize: 17, color: Colors.black,),
                           ),
                           Text("_____________________"),
 
                           Text(
-                            "Qualifications:\n Company Secretary, \nBachelors of Commerce, \nMasters of Commerce.",
+                            "Qualifications:\nCompany Secretary,\nBachelors of \nCommerce.",
                             style: new TextStyle(
-                                fontSize: 16, color: Colors.grey),
+                                fontSize: 15, color: Colors.blueGrey),
                           )
                         ],
                       ))),
@@ -133,14 +135,14 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Suraj Bohra LW",
                             style: new TextStyle(
-                              fontSize: 22, color: Colors.black,),
+                              fontSize: 17, color: Colors.black,),
                           ),
                           Text("_____________________"),
 
                           Text(
-                            "Qualifications:\n Company Secretary, \nBachelors of Commerce",
+                            "Qualifications:\nCompany Secretary, \nBachelors of Commerce",
                             style: new TextStyle(
-                                fontSize: 16, color: Colors.grey),
+                                fontSize: 15, color: Colors.blueGrey),
                           )
                         ],
                       ))),
@@ -154,14 +156,14 @@ class Roots_List extends StatelessWidget {
                           Text(
                             "Girish Samdani",
                             style: new TextStyle(
-                              fontSize: 22, color: Colors.black,),
+                              fontSize: 17, color: Colors.black,),
                           ),
                           Text("_____________________"),
 
                           Text(
-                            "Qualifications:\n Bachelor of Business \nManagement, Master \nof Commerce",
+                            "Qualifications:\nBachelor of Business\nManagement, Master\nof Commerce",
                             style: new TextStyle(
-                                fontSize: 16, color: Colors.grey),
+                                fontSize: 15, color: Colors.blueGrey),
                           )
                         ],
                       ))),
